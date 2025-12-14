@@ -30,6 +30,7 @@ public class BookStoreApiTest {
                 .then()
                 .statusCode(200)
                 .extract()
+
                 .response();
 
         System.out.println("RESPONSE BODY: " + response.asPrettyString());
